@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.wrapper {
+    height: 650px;
+    width: 710px;
+    border: 1px solid;
+}
+
+header {
+    height: 40px;
+    width: 690px;
+    background-color: #AC4B16;
+    padding: 15px 0px 0px 20px;
+    text-align: left;
+    color: #7B7E0C;
+    text-shadow: white -4px -4px 5px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+menu {
+    height: 30px;
+    width: 100%;
+}
+
+.menu{
+    height: 100%;
+    width: 80px;
+    border: none;
+    background-color: white;
+}
+
+.content {
+    height: 520px;
+    width: 100%;
+}
+
+.top {
+    height: 100px;
+    width: 100%;
+    background-image: url(../img/AnhContent.PNG);
+    background-repeat: repeat-x;
+}
+
+aside {
+    height: 400px;
+    width: 60%;
+    float: left;
+    margin: 20px;
+    border-right: 1px solid #BEBEBE;
+}
+
+.ip {
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid #BEBEBE;
+    width: 400px;
+}
+
+.sub {
+    height: 30px;
+    width: 100px;
+    background-color: #808101;
+    margin: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+section {
+    height: 380px;
+    width: 30%;
+    float: left;
+}
+
+.link{
+    margin-top: 50px;
+    height: 180px;
+    width: 95%;
+    background-color: #FAEBD6;
+    position: relative;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 10px;
+}
+.ul{
+    position: absolute; 
+    color: #A35116;
+    list-style: square;
+    padding-left: 40px;
+    font-family: arial;
+}
+
+.mi{
+    height: 200px;
+    width: 95%;
+    position: relative;
+}
+
+.la{
+    padding: 10px;
+    border: 1px solid #BEBEBE;
+    margin: 10px 10px 0px 0px;
+    float: left;
+}
+
+
+footer {
+    height: 40px;
+    width: 650;
+    background-image: url(../img/AnhFooter.PNG);
+    background-repeat: repeat-x;
+    position: relative;
+}
